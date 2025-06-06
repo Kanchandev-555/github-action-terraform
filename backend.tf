@@ -1,6 +1,6 @@
 terraform {
  backend "s3" {
- bucket = "idream-test-terraform"
+ bucket = "idreamdev-demo-bucket"
  key = "terraform.tfstate"
  region = "ap-south-1"
       }
